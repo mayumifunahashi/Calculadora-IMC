@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     background-image: url(src/background.jpg.jpg);
 }
@@ -11,8 +17,8 @@ main {
 }
 
 #container {
-    background: rgba(255, 198, 165, 0.7);
-    backdrop-filter: blur(10px);
+    
+    backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
@@ -22,6 +28,8 @@ main {
     width: 400px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgb(32, 31, 31);
+    
+    
     
 }
 
@@ -42,6 +50,7 @@ main {
     height: 50px;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .input input {
@@ -66,7 +75,7 @@ button {
     background: rgb, (rgb(224, 201, 221), blue);
     color: rgb(20, 20, 20);
     outline: none;
-    border-radius: 2px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
